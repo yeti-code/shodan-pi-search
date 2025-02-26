@@ -3,7 +3,7 @@ import argparse
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description="Query the shodan API")
-parser.add_argument("query", type=str, help="Search query")
+parser.add_argument("query", type=str, help='python3 shodan_search.py "query"')
 args = parser.parse_args()
 
 # Assign API key into a variable
